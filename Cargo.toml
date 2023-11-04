@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 cpal = { version = "0.15.2", features = ["asio"] }
+hound = "3.5.1"
