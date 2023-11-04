@@ -1,0 +1,13 @@
+[book]
+authors = ["mousany", "winlere"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust ASIO Guide"
+
+[rust]
+edition = "2021"
+
+[output.html]
+git-repository-url = "https://github.com/mousany/rust-asio"
+site-url = "cs120.shanghaitech.icu"
