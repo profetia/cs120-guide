@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use cpal::{
     traits::{DeviceTrait, HostTrait, StreamTrait},
     FromSample, HostId, Sample, SampleFormat, SampleRate, SupportedStreamConfig,

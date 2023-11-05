@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 fn main() {
     let host;
     #[cfg(target_os = "windows")]
