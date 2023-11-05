@@ -9,3 +9,4 @@ edition = "2021"
 anyhow = "1.0.75"
 cpal = { version = "0.15.2", features = ["asio"] }
 hound = "3.5.1"
+rodio = "0.17.3"
