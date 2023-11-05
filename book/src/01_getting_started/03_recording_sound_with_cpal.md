@@ -86,6 +86,7 @@ This example shows how to write a WAV file from a stream. It uses the `hound` cr
 
 ```rust,noplayground
 use cpal::{Sample, FromSample};
+use hound::{WavSpec, WavWriter};
 use std::{
     fs::File,
     io::BufWriter,
@@ -93,7 +94,6 @@ use std::{
     thread,
     time::Duration,
 };
-use hound::{WavSpec, WavWriter};
 
 fn write_input_data<T, U>(data: &[T], writer: &Arc<Mutex<WavWriter<BufWriter<File>>>>)
 where
