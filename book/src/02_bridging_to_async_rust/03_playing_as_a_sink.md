@@ -1,4 +1,4 @@
-# Playing as a a Sink
+# Playing as Sink
 
 Unlike recording, playing audio as a sink is a bit more complicated. This is because the `Sink` struct provided by `Rodio` only provides a `sleep_until_end` method to indicate when the audio has finished playing. This is not very useful in our case, as it would block the thread until finished. Instead, we want to be able to play audio in the background, while still being able know when it has finished playing.
 

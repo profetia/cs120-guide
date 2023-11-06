@@ -1,4 +1,4 @@
-# Putting it all Together
+# Putting It All Together
 
 Now that we have all the pieces, let's put them together. Here is the record-then-playback example from last section:
 

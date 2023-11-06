@@ -1,4 +1,4 @@
-# Recording as a Stream
+# Recording as Stream
 
 Since the driver uses callbacks to handle events, it is possible to use `Mutex` and `Waker` to integrate it with the `futures` crate. However, the simplest way is to delegate the work to an unbounded channel. The channel will be used to send the recorded data to the main thread, where it will be processed.
 
