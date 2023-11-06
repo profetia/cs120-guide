@@ -8,5 +8,6 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.75"
 cpal = { version = "0.15.2", features = ["asio"] }
+futures = "0.3.29"
 hound = "3.5.1"
 rodio = "0.17.3"
