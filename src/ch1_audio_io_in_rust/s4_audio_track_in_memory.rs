@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::{
     iter::ExactSizeIterator,
     sync::{Arc, Mutex},

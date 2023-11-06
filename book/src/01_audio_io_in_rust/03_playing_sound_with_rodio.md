@@ -13,7 +13,7 @@ let (_stream, handle) = OutputStream::try_from_device_config(&device, config).un
 let sink = Sink::try_new(&handle).unwrap();
 ```
 
-## Playing Sound
+## Playing Sound from a WAV file
 
 The `Sink` type provides a method named `append` which can be used to append a `Source` to the audio track. The `Source` is a trait which is implemented by many types, including `rodio::Decoder`, which allows us to play audio from a file.
 

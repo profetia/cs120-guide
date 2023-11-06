@@ -80,7 +80,7 @@ Some devices support pausing the audio stream. This can be done by calling `paus
 stream.pause().expect("failed to pause stream");
 ```
 
-## Example: Writing a WAV File
+## Writing a WAV File
 
 This example shows how to write a WAV file from a stream. It uses the `hound` crate to write the WAV file.
 
