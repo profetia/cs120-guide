@@ -1,17 +1,16 @@
 #![allow(unused)]
 
+use cpal::{
+    traits::{HostTrait, StreamTrait},
+    FromSample, HostId, Sample, SampleFormat, SampleRate, SupportedStreamConfig,
+};
+use rodio::{DeviceTrait, OutputStream, Sink, Source};
 use std::{
     iter::ExactSizeIterator,
     sync::{Arc, Mutex},
     thread,
     time::Duration,
 };
-
-use cpal::{
-    traits::{HostTrait, StreamTrait},
-    FromSample, HostId, Sample, SampleFormat, SampleRate, SupportedStreamConfig,
-};
-use rodio::{DeviceTrait, OutputStream, Sink, Source};
 
 pub struct AudioTrack<I: ExactSizeIterator>
 where

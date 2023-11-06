@@ -12,3 +12,5 @@
   - [Recording as Stream](02_bridging_to_async_rust/02_recording_as_a_stream.md)
   - [Playing as Sink](02_bridging_to_async_rust/03_playing_as_a_sink.md)
   - [Putting It All Together](02_bridging_to_async_rust/04_putting_it_all_together.md)
+
+[References](99_references.md)
