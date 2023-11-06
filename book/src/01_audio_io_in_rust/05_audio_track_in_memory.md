@@ -105,7 +105,6 @@ where
 
 let writer = Arc::new(Mutex::new(vec![]));
 let reader = writer.clone();
-let stream_config = config.clone().into();
 
 ... // Create the input stream and record the audio data
 
