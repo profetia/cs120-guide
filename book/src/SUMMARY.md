@@ -8,3 +8,7 @@
   - [Playing Sound with Rodio](01_audio_io_in_rust/03_playing_sound_with_rodio.md)
   - [Audio Track in Memory](01_audio_io_in_rust/04_audio_track_in_memory.md)
 - [Bridging to Async Rust](02_bridging_to_async_rust/00_chapter.md)
+  - [The Stream and Sink Traits](02_bridging_to_async_rust/01_the_stream_and_sink_traits.md)
+  - [Recording as a Stream](02_bridging_to_async_rust/02_recording_as_a_stream.md)
+  - [Playing as a a Sink](02_bridging_to_async_rust/03_playing_as_a_sink.md)
+  - [Putting it all Together](02_bridging_to_async_rust/04_putting_it_all_together.md)
